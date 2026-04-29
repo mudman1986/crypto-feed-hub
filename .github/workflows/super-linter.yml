@@ -17,7 +17,7 @@ permissions:
 jobs:
   lint:
     name: Lint Code Base
-    uses: mudman1986/mudman-reusable/.github/workflows/reusable-super-linter.yml@e16cc3da9d3285e62068bb6499c7222d3d72b3da
+    uses: mudman1986/mudman-reusable/.github/workflows/reusable-super-linter.yml@26a152469998b624b672d1219b210bd319ea0ed9
     with:
       validate-all-codebase: false
       default-branch: main
